@@ -1,0 +1,2 @@
+# algo
+HelloAlgorithm for go
