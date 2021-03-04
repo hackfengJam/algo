@@ -6,7 +6,8 @@ import (
 )
 
 func TestLoopQueue(t *testing.T) {
-	loopQueue := NewLoopQueue()
+	var loopQueue Queue
+	loopQueue = NewLoopQueue()
 	for i := 0; i < 10; i++ {
 		loopQueue.Enqueue(i)
 		fmt.Printf("enqueue: %s\n", loopQueue)
