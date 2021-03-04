@@ -11,10 +11,6 @@ type LoopQueue struct {
 	size        int
 }
 
-func (l *LoopQueue) RuntimeError() {
-	panic("implement me")
-}
-
 func NewLoopQueue() *LoopQueue {
 	return NewLoopQueueWithCapacity(10)
 }
