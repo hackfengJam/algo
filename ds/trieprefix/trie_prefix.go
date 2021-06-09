@@ -1,4 +1,4 @@
-package trie_prefix
+package trieprefix
 
 import (
 	"context"
